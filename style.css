@@ -18,10 +18,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #FFFC31;
 }
 
 a:visited {
-    color: inherit;
+    color: #FE5F55;
 }
 
 a:hover {
