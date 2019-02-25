@@ -1,0 +1,29 @@
+body {
+    background-color: #5EAFBC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EEF5DB;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: #4F6367;
+    display: flex;
+    width: 80vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color:#5EAFBC;
+}
