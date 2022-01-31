@@ -1,3 +1,4 @@
+html,
 body {
     background-color: #5EAFBC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,20 +12,15 @@ body {
     background-color: rgb(229, 252, 245);
     display: flex;
     position: relative;
-    top: 10vh;
+    top: 2vh;
     width: 80vw;
-    height: 85vh;
+    height: 95vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 1vw;
     margin-bottom: 3vh;
     padding-bottom: 3vh;
-    overflow-y: scroll;
-}
-
-#container div {
-    overflow-y: auto;
 }
 
 #container ul {
@@ -40,7 +36,9 @@ body {
 #funFact {
     background-color: #B6F6E3;
     width: 80%;
-    margin-top: 5vh;
+    height: fit-content;
+    overflow: hidden;
+    margin-top: 2vh;
     text-align: center;
     border-radius: 1vmin;
     padding: 1em;
