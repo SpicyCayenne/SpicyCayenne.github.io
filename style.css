@@ -18,6 +18,8 @@ body {
     justify-content: flex-start;
     align-items: center;
     border-radius: 1vw;
+    margin-bottom: 3vh;
+    padding-bottom: 3vh;
 }
 
 #container div {
