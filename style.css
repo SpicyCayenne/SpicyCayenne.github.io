@@ -1,30 +1,57 @@
 body {
     background-color: #5EAFBC;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #EEF5DB;
+    color: rgb(8, 7, 8);
     display: flex;
     justify-content: center;
+    font-size: 1.5vw;
 }
 
 #container {
-    background-color: #4F6367;
+    background-color: rgb(229, 252, 245);
     display: flex;
+    position: relative;
+    top: 10vh;
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 1vw;
+}
+
+#container p {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#funFact {
+    background-color: #B6F6E3;
+    width: 80%;
+    margin-top: 5vh;
+    text-align: center;
+    border-radius: 1vmin;
+    padding: 1em;
+}
+
+.btn {
+    margin-top: 5vh;
+    width: 20vw;
+    height: 5vh;
+    font-size: 3vmin;
+    border-radius: 1vmin;
+    border-color: none;
 }
 
 a {
     text-decoration: none;
-    color: #FFFC31;
+    color: rgb(19, 111, 99);
 }
 
 a:visited {
-    color: #FE5F55;
+    color: #776871;
 }
 
 a:hover {
-    color:#5EAFBC;
+    color: #5EAFBC;
 }
