@@ -20,6 +20,7 @@ body {
     border-radius: 1vw;
     margin-bottom: 3vh;
     padding-bottom: 3vh;
+    overflow-y: scroll;
 }
 
 #container div {
@@ -51,6 +52,7 @@ body {
     margin-bottom: 1vh;
     border-radius: 1vmin;
     font-size: 3vmin;
+    padding: .75em;
 }
 
 a {
