@@ -13,11 +13,20 @@ body {
     position: relative;
     top: 10vh;
     width: 80vw;
-    height: 80vh;
+    height: 85vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     border-radius: 1vw;
+}
+
+#container div {
+    overflow-y: auto;
+}
+
+#container ul {
+    list-style: none;
+    padding-left: 2vw;
 }
 
 #container p {
@@ -32,15 +41,14 @@ body {
     text-align: center;
     border-radius: 1vmin;
     padding: 1em;
+    position: relative;
 }
 
 .btn {
-    margin-top: 5vh;
-    width: 20vw;
-    height: 5vh;
-    font-size: 3vmin;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
     border-radius: 1vmin;
-    border-color: none;
+    font-size: 3vmin;
 }
 
 a {
@@ -54,4 +62,31 @@ a:visited {
 
 a:hover {
     color: #5EAFBC;
+}
+
+@media (max-width: 425px) {
+    #container {
+        height: auto;
+        font-size: 4vw;
+        padding: 3vmin 0 3vmin 0;
+    }
+}
+
+@media (max-width: 920px) and (min-width: 426px) {
+    body {
+        margin-bottom: 3vh;
+        height: 100%;
+    }
+
+    #container {
+        height: auto;
+        top: 2vh;
+        margin-bottom: 3vh;
+        font-size: 4vw;
+        padding-bottom: 3vh;
+    }
+
+    #container div {
+        margin-bottom: 3vh;
+    }
 }
